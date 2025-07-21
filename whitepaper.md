@@ -32,7 +32,7 @@ The BNRY community gathers around a shared belief: not in profit, but in princip
 Website: [onlybinary.com](https://onlybinary.com)  
 Twitter: [@BNRYcoin](https://x.com/BNRYcoin)  
 Telegram: [t.me/BNRYtoken](https://t.me/BNRYtoken)
-
+BscScan: [0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec](https://bscscan.com/token/0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec)
 ---
 
 ## Disclaimer
