@@ -40,8 +40,29 @@ https://onlybinary.com
 BNRY is not just a coin — it's a response.  
 A digital reminder that no matter how far society drifts, the origin remains binary.
 
-## 📄 Whitepaper
-[Whitepaper](https://github.com/onlybnry/bnry-site/blob/main/whitepaper.md)
+## 📄 [Whitepaper](https://github.com/onlybnry/bnry-site/blob/main/whitepaper.md)
+
+📘 Read the complete whitepaper to understand our philosophy, tokenomics, and purpose.
+
+## 🛠 Smart Contract
+
+- Verified Contract: [BscScan 🔗](https://bscscan.com/token/0x83aad7649a1d8b258ac6aab7e269b5b6eba6ec6) ✅  
+- Chain: BNB Smart Chain (BEP-20)  
+- Total Supply: 1,000,000,000,000 BNRY  
+
+---
+
+## 📬 Contact
+
+- Official email: [info@onlybinary.com](mailto:info@onlybinary.com)  
+- Website: [onlybinary.com](https://onlybinary.com)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](https://github.com/onlybnry/bnry-site/blob/main/LICENSE) file for details.
 
 
 ---
