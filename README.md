@@ -16,7 +16,7 @@ https://onlybinary.com
 - Twitter: [@BNRYcoin](https://x.com/BNRYcoin)
 - Telegram: [BNRYtoken](https://t.me/BNRYtoken)
 - GitHub: [onlybnry](https://github.com/onlybnry)
-- Smart Contract: [BNRY on BscScan](https://bscscan.com/token/0x3aad...абц) ← (вставь свою ссылку)
+- Smart Contract: [BNRY on BscScan](https://bscscan.com/token/0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec) 
 
 ## 🪙 Token Information
 - Name: **OnlyBinary**
