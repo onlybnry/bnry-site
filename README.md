@@ -41,7 +41,8 @@ BNRY is not just a coin — it's a response.
 A digital reminder that no matter how far society drifts, the origin remains binary.
 
 ## 📄 Whitepaper
-[Whitepaper (PDF)](./whitepaper.pdf) — Coming Soon
+[Whitepaper](https://github.com/onlybnry/bnry-site/blob/main/whitepaper.md)
+
 
 ---
 
