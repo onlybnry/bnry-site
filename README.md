@@ -46,7 +46,7 @@ A digital reminder that no matter how far society drifts, the origin remains bin
 
 ## 🛠 Smart Contract
 
-- Verified Contract: [BscScan 🔗](https://bscscan.com/token/0x83aad7649a1d8b258ac6aab7e269b5b6eba6ec6) ✅  
+- Verified Contract: [BscScan 🔗](https://bscscan.com/token/0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec) ✅  
 - Chain: BNB Smart Chain (BEP-20)  
 - Total Supply: 1,000,000,000,000 BNRY  
 
