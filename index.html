@@ -6,6 +6,42 @@
     <title>BNRY — OnlyBinary</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        #language-selector {
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1000;
+}
+#language-selector button {
+  padding: 6px 14px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: 1px solid #666;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#language-menu {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+#language-menu a {
+  display: block;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+}
+#language-menu a:hover {
+  background-color: #444;
+}
+
         .lang-switch {
     position: absolute;
     top: 15px;
@@ -31,6 +67,14 @@
             background-color: #111;
             font-size: 18px;
         }
+        <div id="language-selector">
+  <button>🌐 Language ▼</button>
+  <div id="language-menu">
+    <a href="index.html">🇬🇧 English</a>
+    <a href="index_ru.html">🇷🇺 Русский</a>
+  </div>
+</div>
+
         .symbols {
             font-size: 36px;
             display: flex;
@@ -239,6 +283,19 @@
             This project is purely ideological. It has no intrinsic value and is not intended for investment. Do your own research (DYOR). BNRY does not offer any financial promises or returns.
         </p>
     </footer>
+    <script>
+  document.querySelector('#language-selector button').addEventListener('click', function () {
+    const menu = document.getElementById('language-menu');
+    menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('#language-selector')) {
+      document.getElementById('language-menu').style.display = 'none';
+    }
+  });
+</script>
+
 </body>
 </html>
 
