@@ -6,6 +6,17 @@
     <title>BNRY — OnlyBinary</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        .lang-switch {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    font-size: 24px;
+    z-index: 1000;
+}
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -128,15 +139,13 @@
     </head>
 <body>
     <header>
-        
-        <div class="symbols">♂️ ♀️</div>
-        <div class="dna">🧬</div>
-        <div class="lang-switch">
-            <a href="index.html" title="English">🇬🇧</a>
-            <a href="index_ru.html" title="Русский">🇷🇺</a>
-        </div>
-
-    </header>
+    <div class="symbols">♂️ ♀️</div>
+    <div class="lang-switch">
+        <a href="index.html" title="English" style="text-decoration: none;">🇬🇧</a>
+        <a href="index_ru.html" title="Русский" style="text-decoration: none; margin-left: 10px;">🇷🇺</a>
+    </div>
+    <div class="dna">🧬</div>
+</header>
     <img src="Darwincoin.png" alt="BNRY Darwin Coin" class="darwin-img">
     <section>
         <h1>ONLYBINARY</h1>
