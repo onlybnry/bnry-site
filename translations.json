@@ -1,266 +1,98 @@
 {
-  "site_title": {
-    "en": "ONLYBINARY",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "site_subtitle": {
+  "slogan": {
     "en": "Man. Woman. Nothing else to add. Not an investment. Not a scam. Just an idea.",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "buy_button": {
-    "en": "Buy BNRY",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "what_is_bnry": {
-    "en": "What is BNRY?",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+    "ru": "Мужчина. Женщина. Больше нечего добавить. Не инвестиция. Не скам. Просто идея."
   },
   "about_project_title": {
     "en": "About the Project",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+    "ru": "О проекте"
   },
-  "about_project_1": {
-    "en": "BNRY (OnlyBinary) is not just a token — it’s a symbolic artifact.",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+  "about_1": {
+    "en": "BNRY (OnlyBinary) is not just a token — it’s a symbolic artifact. Built on the Binance Smart Chain (BEP-20), its purpose is not financial speculation, but to serve as a reminder: Male. Female. The biological binary truth.",
+    "ru": "BNRY (OnlyBinary) — это не просто токен, а символический артефакт. Построенный на Binance Smart Chain (BEP-20), он служит не для финансовых спекуляций, а как напоминание: мужчина и женщина — биологическая бинарная истина."
   },
-  "about_project_2": {
-    "en": "Built on the Binance Smart Chain (BEP-20), its purpose is not financial speculation, but to serve as a reminder: Male. Female. The biological binary truth.",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+  "about_2": {
+    "en": "There was no presale. The supply was minted once and forever. The contract has no owner, no minting, no pausing, and no backdoors. The deployment was made from a clean, verifiable source code using OpenZeppelin.",
+    "ru": "Предпродажи не было. Эмиссия была произведена один раз и навсегда. У контракта нет владельца, нет минта, нет паузы и нет бэкдоров. Деплой выполнен на чистом и проверяемом коде с использованием OpenZeppelin."
   },
-  "about_project_3": {
-    "en": "There was no presale. The supply was minted once and forever. The contract has no owner, no minting, no pausing, and no backdoors.",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "about_project_4": {
+  "about_3": {
     "en": "BNRY is a memecoin with a binary soul. XY / XX — the foundation of life. No presale. No promises. Just a locked chain reaction.",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "view_bscscan": {
-    "en": "View on BscScan",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "view_chart": {
-    "en": "View Live BNRY Chart",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "view_locked_lp": {
-    "en": "View Locked LP",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+    "ru": "BNRY — мемкойн с бинарной душой. XY / XX — основа жизни. Без предпродажи. Без обещаний. Только заблокированная цепная реакция."
   },
   "tokenomics": {
     "en": "Tokenomics",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+    "ru": "Токеномика"
+  },
+  "tokenomics_1": {
+    "en": "🔥 35% — Permanently removed from supply",
+    "ru": "🔥 35% — Безвозвратно удалено из обращения"
+  },
+  "tokenomics_2": {
+    "en": "🌊 20% — Liquidity (1 BNB + 20B BNRY in 2 steps, LP is locked)",
+    "ru": "🌊 20% — Ликвидность (1 BNB + 20B BNRY в 2 этапа, LP заблокированы)"
+  },
+  "tokenomics_3": {
+    "en": "🧠 15% — Deployer (Darwin) wallet",
+    "ru": "🧠 15% — Кошелёк деплойера (Дарвина)"
+  },
+  "tokenomics_4": {
+    "en": "📣 10% — Marketing",
+    "ru": "📣 10% — Маркетинг"
+  },
+  "tokenomics_5": {
+    "en": "🎁 10% — Airdrop",
+    "ru": "🎁 10% — Эирдроп"
+  },
+  "tokenomics_6": {
+    "en": "💼 10% — Reserve",
+    "ru": "💼 10% — Резерв"
   },
   "roadmap": {
     "en": "Roadmap",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+    "ru": "Дорожная карта"
+  },
+  "roadmap_1": {
+    "en": "✅ Launch & LP",
+    "ru": "✅ Запуск и ликвидность"
+  },
+  "roadmap_2": {
+    "en": "✅ Burn 35%",
+    "ru": "✅ Сжигание 35%"
+  },
+  "roadmap_3": {
+    "en": "✅ Telegram, Twitter, Memes",
+    "ru": "✅ Телеграм, Твиттер, мемы"
+  },
+  "roadmap_4": {
+    "en": "✅ Twitter Verification",
+    "ru": "✅ Верификация Твиттера"
+  },
+  "roadmap_5": {
+    "en": "🔜 Meme Contests",
+    "ru": "🔜 Конкурсы мемов"
+  },
+  "roadmap_6": {
+    "en": "🔜 Airdrop",
+    "ru": "🔜 Эирдроп"
+  },
+  "roadmap_7": {
+    "en": "🔜 Darwin Merch?",
+    "ru": "🔜 Мерч Дарвина?"
   },
   "who_is_darwin": {
     "en": "Who is Darwin?",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+    "ru": "Кто такой Дарвин?"
   },
-  "darwin_description": {
+  "darwin_desc": {
     "en": "Darwin is not the dev. Darwin is the meme. The mind. The reaction. He posts. He mocks. He burns. He evolves.",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+    "ru": "Дарвин — не разработчик. Дарвин — это мем. Мысль. Реакция. Он постит. Он высмеивает. Он сжигает. Он эволюционирует."
   },
-  "token_details": {
-    "en": "Token Details",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+  "footer_reminder": {
+    "en": "BNRY is not a financial product. It's a binary reminder, burned into the chain. 🧬",
+    "ru": "BNRY — это не финансовый продукт. Это бинарное напоминание, сожжённое в блокчейн. 🧬"
   },
-  "faq_button": {
-    "en": "FAQ — Read before launch",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "footer_note": {
-    "en": "BNRY is not a financial product. It's a binary reminder, burned into the chain.",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "contact": {
-    "en": "Contact",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "license": {
-    "en": "Licensed under the MIT License",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
-  },
-  "disclaimer": {
+  "footer_disclaimer": {
     "en": "This project is purely ideological. It has no intrinsic value and is not intended for investment. Do your own research (DYOR). BNRY does not offer any financial promises or returns.",
-    "ru": "",
-    "es": "",
-    "de": "",
-    "fr": "",
-    "zh": "",
-    "hi": "",
-    "ja": "",
-    "pt": "",
-    "tr": ""
+    "ru": "Этот проект является исключительно идеологическим. Он не имеет внутренней ценности и не предназначен для инвестиций. DYOR. BNRY не даёт финансовых гарантий или доходности."
   }
 }
