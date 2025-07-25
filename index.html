@@ -1,59 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>BNRY — OnlyBinary</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        #language-selector {
-  text-align: center;
-  margin-top: 10px;
-  position: relative;
-  z-index: 1000;
-}
-#language-selector button {
-  padding: 6px 14px;
-  font-size: 16px;
-  background-color: #333;
-  color: white;
-  border: 1px solid #666;
-  border-radius: 4px;
-  cursor: pointer;
-}
-#language-menu {
-  display: none;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 8px;
-  background-color: #222;
-  border: 1px solid #444;
-  border-radius: 4px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
-}
-#language-menu a {
-  display: block;
-  padding: 8px 12px;
-  color: white;
-  text-decoration: none;
-}
-#language-menu a:hover {
-  background-color: #444;
-}
-
-        .lang-switch {
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 12px;
-    font-size: 24px;
-    z-index: 1000;
-}
-
-        body {
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   BNRY &mdash; OnlyBinary
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <style>
+   body {
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #0e0e0e;
@@ -67,14 +21,6 @@
             background-color: #111;
             font-size: 18px;
         }
-        <div id="language-selector">
-  <button>🌐 Language ▼</button>
-  <div id="language-menu">
-    <a href="index.html">🇬🇧 English</a>
-    <a href="index_ru.html">🇷🇺 Русский</a>
-  </div>
-</div>
-
         .symbols {
             font-size: 36px;
             display: flex;
@@ -167,136 +113,280 @@
 .pulse-button {
   animation: pulse 2s infinite;
 }
-
-    
-        .lang-switch {
-            display: flex;
-            gap: 10px;
-            font-size: 20px;
-        }
-        .lang-switch a {
-            text-decoration: none;
-        }
-</style>
-    <script defer data-domain="onlybinary.com" src="https://plausible.io/js/script.js"></script>
-    <script src="lang.js" defer></script>
-    </head>
-<body>
-    <header>
-    <div class="symbols">♂️ ♀️</div>
-    <div class="lang-switch">
-        <a href="index.html" title="English" style="text-decoration: none;">🇬🇧</a>
-        <a href="index_ru.html" title="Русский" style="text-decoration: none; margin-left: 10px;">🇷🇺</a>
+  </style>
+  <script data-domain="onlybinary.com" defer="" src="https://plausible.io/js/script.js">
+  </script>
+  <script defer="" src="lang.js">
+  </script>
+ </head>
+ <body>
+  <header>
+   <div class="symbols">
+    &male;️ &female;️
+   </div>
+   <div class="dna">
+    🧬
+   </div>
+   <div class="lang-switch">
+    <a href="index.html">
+     🇬🇧
+    </a>
+    <a href="index_ru.html">
+     🇷🇺
+    </a>
+   </div>
+  </header>
+  <div style="text-align:center; margin-top: 20px; position: relative;">
+   <div style="display: inline-block; position: relative;">
+    <button onclick="toggleLanguageMenu()" style="background: #222; color: white; border: 1px solid #666; padding: 10px 20px; font-size: 18px; border-radius: 8px; cursor: pointer;">
+     🌐 Choose Language
+    </button>
+    <div id="language-menu" style="display: none; position: absolute; top: 100%; left: 0; right: 0; background: #111; border: 1px solid #444; border-radius: 5px; margin-top: 5px;">
+     <a href="index.html" style="display: block; padding: 10px; color: white; text-decoration: none;">
+      🇬🇧 English
+     </a>
+     <a href="index_ru.html" style="display: block; padding: 10px; color: white; text-decoration: none;">
+      🇷🇺 &Rcy;&ucy;&scy;&scy;&kcy;&icy;&jcy;
+     </a>
     </div>
-    <div class="dna">🧬</div>
-</header>
-    <img src="Darwincoin.png" alt="BNRY Darwin Coin" class="darwin-img">
-    <section>
-        <h1>ONLYBINARY</h1>
-        <p>Man. Woman. Nothing else to add.<br>Not an investment. Not a scam. Just an idea.</p>
-    </section>
-    <div style="text-align: center; margin-top: 20px;">
-  <a href="https://pancakeswap.finance/swap?outputCurrency=0xf3ADad7694AA1d8B5285AC6AAb7E7505b66Ba6EC" target="_blank" rel="noopener noreferrer">
-  <button class="pulse-button" style="padding: 12px 28px; font-size: 18px; font-weight: bold; border-radius: 12px; background-color: #8B0000; color: #fff; border: none; cursor: pointer;">
-  BUY BNRY
-</button>
-
-  </a>
-</div>
+   </div>
+  </div>
+  <img alt="BNRY Darwin Coin" class="darwin-img" src="Darwincoin.png"/>
   <section>
-    <h2>What is BNRY?</h2>
-    <details>
-        <summary><strong>About the Project</strong></summary>
-        <p style="margin-top: 12px;">
-            BNRY (OnlyBinary) is not just a token — it’s a symbolic artifact.
+   <h1>
+    ONLYBINARY
+   </h1>
+   <p>
+    Man. Woman. Nothing else to add.
+    <br/>
+    Not an investment. Not a scam. Just an idea.
+   </p>
+  </section>
+  <div style="text-align: center; margin-top: 20px;">
+   <a href="https://pancakeswap.finance/swap?outputCurrency=0xf3ADad7694AA1d8B5285AC6AAb7E7505b66Ba6EC" rel="noopener noreferrer" target="_blank">
+    <button class="pulse-button" style="padding: 12px 28px; font-size: 18px; font-weight: bold; border-radius: 12px; background-color: #8B0000; color: #fff; border: none; cursor: pointer;">
+     BUY BNRY
+    </button>
+   </a>
+  </div>
+  <section>
+   <h2>
+    What is BNRY?
+   </h2>
+   <details>
+    <summary>
+     <strong>
+      About the Project
+     </strong>
+    </summary>
+    <p style="margin-top: 12px;">
+     BNRY (OnlyBinary) is not just a token &mdash; it&rsquo;s a symbolic artifact.
             Built on the Binance Smart Chain (BEP-20), its purpose is not financial speculation, but to serve as a reminder:
             Male. Female. The biological binary truth.
-        </p>
-        <p>
-            There was no presale. The supply was minted once and forever. The contract has no owner,
+    </p>
+    <p>
+     There was no presale. The supply was minted once and forever. The contract has no owner,
             no minting, no pausing, and no backdoors. The deployment was made from a clean, verifiable source code using OpenZeppelin.
-        </p>
-        <p>
-            BNRY is a memecoin with a binary soul. XY / XX — the foundation of life.<br>
-            No presale. No promises. Just a locked chain reaction.
-        </p>
-    </details>
-    <a class="button" style="margin-top: 10px;" href="https://www.pinksale.finance/pinklock/bsc/record/1337567" target="_blank"> View Locked LP</a>
-    <a class="button" style="margin-top: 20px; margin-bottom: 30px;" href="https://bscscan.com/token/0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec" target="_blank">View on BscScan</a>
-    <a class="button" style="margin-top: 10px;" href="https://dexscreener.com/bsc/0x2921c7a8e7cbdaad8d0b9e881a2cc6ae557eb226" target="_blank"> View Live BNRY Chart</a>
-
-</section>
-
-
-    <section>
-        <h2>Tokenomics</h2>
-        <ul>
-            <li>🔥 35% — Permanently removed from supply</li>
-            <li>🌊 20% — Liquidity (1 BNB + 20B BNRY in 2 steps, LP is locked)</li>
-            <li>🧠 15% — Deployer (Darwin) wallet</li>
-            <li>📣 10% — Marketing</li>
-            <li>🎁 10% — Airdrop</li>
-            <li>💼 10% — Reserve</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Roadmap</h2>
-        <ul>
-            <li>✅ Launch & LP</li>
-            <li>✅ Burn 35%</li>
-            <li>✅ Telegram, Twitter, Memes</li>
-            <li>✅ Twitter Verification</li>
-            <li>🔜 Meme Contests</li>
-            <li>🔜 Airdrop</li>
-            <li>🔜 Darwin Merch?</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Who is Darwin?</h2>
-        <p>Darwin is not the dev. Darwin is the meme. The mind. The reaction.<br>He posts. He mocks. He burns. He evolves.</p>
-        <ul>
-            <li><a href="https://x.com/DarwinTheCoin" target="_blank">Darwin’s Twitter</a></li>
-            <li><a href="https://x.com/BNRYcoin" target="_blank">Official Twitter</a></li>
-            <li><a href="https://t.me/BNRYtoken" target="_blank">Telegram Channel</a></li>
-            <li><a href="https://t.me/BNRYchat" target="_blank">Telegram Chat</a></li>
-        </ul>
-    </section>
-    <section style="background-color:#111; padding:20px; border-radius:10px; max-width:600px; margin: 40px auto;">
-        <h2>Token Details</h2>
-        <ul style="list-style:none; padding:0; font-size:16px; text-align:left;">
-            <li><strong>Name:</strong> ONLYBINARY</li>
-            <li><strong>Symbol:</strong> BNRY</li>
-            <li><strong>Chain:</strong> BNB Smart Chain (BEP-20)</li>
-            <li><strong>Decimals:</strong> 18</li>
-            <li><strong>Total Supply:</strong> 1,000,000,000,000 BNRY</li>
-            <li><strong>Deployer Address:</strong> 0x7266bbe858587B5397Bcf02117cc90Ec3e214d1E</li>
-            <li><strong>Contract Address:</strong> <a href="https://bscscan.com/token/0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec" target="_blank">0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec</a></li>
-        </ul>
-        <a class="button" href="faq.html" style="margin-top:20px;">FAQ — Read before launch</a>
-    </section>
-    <footer>
-        <p>BNRY is not a financial product. It's a binary reminder, burned into the chain. 🧬</p>
-        <p>Contact: <a href="mailto:info@onlybinary.com">info@onlybinary.com</a></p>
-        <p>Licensed under the <a href="https://github.com/onlybnry/bnry-site/blob/main/LICENSE" target="_blank">MIT License</a></p>
-        <p>&copy; 2025</p>
-        <p style="margin-top:20px; font-size:12px; opacity:0.5;">
-            This project is purely ideological. It has no intrinsic value and is not intended for investment. Do your own research (DYOR). BNRY does not offer any financial promises or returns.
-        </p>
-    </footer>
-    <script>
-  document.querySelector('#language-selector button').addEventListener('click', function () {
-    const menu = document.getElementById('language-menu');
-    menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
-  });
-
-  document.addEventListener('click', function (e) {
-    if (!e.target.closest('#language-selector')) {
-      document.getElementById('language-menu').style.display = 'none';
-    }
-  });
-</script>
-
-</body>
+    </p>
+    <p>
+     BNRY is a memecoin with a binary soul. XY / XX &mdash; the foundation of life.
+     <br/>
+     No presale. No promises. Just a locked chain reaction.
+    </p>
+   </details>
+   <a class="button" href="https://www.pinksale.finance/pinklock/bsc/record/1337567" style="margin-top: 10px;" target="_blank">
+    View Locked LP
+   </a>
+   <a class="button" href="https://bscscan.com/token/0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec" style="margin-top: 20px; margin-bottom: 30px;" target="_blank">
+    View on BscScan
+   </a>
+   <a class="button" href="https://dexscreener.com/bsc/0x2921c7a8e7cbdaad8d0b9e881a2cc6ae557eb226" style="margin-top: 10px;" target="_blank">
+    View Live BNRY Chart
+   </a>
+  </section>
+  <section>
+   <h2>
+    Tokenomics
+   </h2>
+   <ul>
+    <li>
+     🔥 35% &mdash; Permanently removed from supply
+    </li>
+    <li>
+     🌊 20% &mdash; Liquidity (1 BNB + 20B BNRY in 2 steps, LP is locked)
+    </li>
+    <li>
+     🧠 15% &mdash; Deployer (Darwin) wallet
+    </li>
+    <li>
+     📣 10% &mdash; Marketing
+    </li>
+    <li>
+     🎁 10% &mdash; Airdrop
+    </li>
+    <li>
+     💼 10% &mdash; Reserve
+    </li>
+   </ul>
+  </section>
+  <section>
+   <h2>
+    Roadmap
+   </h2>
+   <ul>
+    <li>
+     ✅ Launch &amp; LP
+    </li>
+    <li>
+     ✅ Burn 35%
+    </li>
+    <li>
+     ✅ Telegram, Twitter, Memes
+    </li>
+    <li>
+     ✅ Twitter Verification
+    </li>
+    <li>
+     🔜 Meme Contests
+    </li>
+    <li>
+     🔜 Airdrop
+    </li>
+    <li>
+     🔜 Darwin Merch?
+    </li>
+   </ul>
+  </section>
+  <section>
+   <h2>
+    Who is Darwin?
+   </h2>
+   <p>
+    Darwin is not the dev. Darwin is the meme. The mind. The reaction.
+    <br/>
+    He posts. He mocks. He burns. He evolves.
+   </p>
+   <ul>
+    <li>
+     <a href="https://x.com/DarwinTheCoin" target="_blank">
+      Darwin&rsquo;s Twitter
+     </a>
+    </li>
+    <li>
+     <a href="https://x.com/BNRYcoin" target="_blank">
+      Official Twitter
+     </a>
+    </li>
+    <li>
+     <a href="https://t.me/BNRYtoken" target="_blank">
+      Telegram Channel
+     </a>
+    </li>
+    <li>
+     <a href="https://t.me/BNRYchat" target="_blank">
+      Telegram Chat
+     </a>
+    </li>
+   </ul>
+  </section>
+  <section style="background-color:#111; padding:20px; border-radius:10px; max-width:600px; margin: 40px auto;">
+   <h2>
+    Token Details
+   </h2>
+   <ul style="list-style:none; padding:0; font-size:16px; text-align:left;">
+    <li>
+     <strong>
+      Name:
+     </strong>
+     ONLYBINARY
+    </li>
+    <li>
+     <strong>
+      Symbol:
+     </strong>
+     BNRY
+    </li>
+    <li>
+     <strong>
+      Chain:
+     </strong>
+     BNB Smart Chain (BEP-20)
+    </li>
+    <li>
+     <strong>
+      Decimals:
+     </strong>
+     18
+    </li>
+    <li>
+     <strong>
+      Total Supply:
+     </strong>
+     1,000,000,000,000 BNRY
+    </li>
+    <li>
+     <strong>
+      Deployer Address:
+     </strong>
+     0x7266bbe858587B5397Bcf02117cc90Ec3e214d1E
+    </li>
+    <li>
+     <strong>
+      Contract Address:
+     </strong>
+     <a href="https://bscscan.com/token/0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec" target="_blank">
+      0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec
+     </a>
+    </li>
+   </ul>
+   <a class="button" href="faq.html" style="margin-top:20px;">
+    FAQ &mdash; Read before launch
+   </a>
+  </section>
+  <footer>
+   <p>
+    BNRY is not a financial product. It's a binary reminder, burned into the chain. 🧬
+   </p>
+   <p>
+    Contact:
+    <a href="mailto:info@onlybinary.com">
+     info@onlybinary.com
+    </a>
+   </p>
+   <p>
+    Licensed under the
+    <a href="https://github.com/onlybnry/bnry-site/blob/main/LICENSE" target="_blank">
+     MIT License
+    </a>
+   </p>
+   <p>
+    &copy; 2025
+   </p>
+   <p style="margin-top:20px; font-size:12px; opacity:0.5;">
+    This project is purely ideological. It has no intrinsic value and is not intended for investment. Do your own research (DYOR). BNRY does not offer any financial promises or returns.
+   </p>
+   <div class="lang-switch" style="margin-top: 20px;">
+    <a href="index.html">
+     🇬🇧
+    </a>
+    <a href="index_ru.html">
+     🇷🇺
+    </a>
+   </div>
+  </footer>
+  <script>
+   function toggleLanguageMenu() {
+  const menu = document.getElementById('language-menu');
+  menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+}
+document.addEventListener('click', function(e) {
+  const menu = document.getElementById('language-menu');
+  const button = e.target.closest('button');
+  if (!e.target.closest('#language-menu') && (!button || button.onclick !== toggleLanguageMenu)) {
+    menu.style.display = 'none';
+  }
+});
+  </script>
+ </body>
 </html>
-
 
