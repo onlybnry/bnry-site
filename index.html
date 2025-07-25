@@ -66,32 +66,27 @@
       list-style-position: inside;
       padding: 0;
     }
+    .button {
+      display: inline-block;
+      margin: 8px 8px;
+      padding: 10px 16px;
+      font-size: 15px;
+      background-color: #008080;
+      color: #fff;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      border: none;
+    }
     .pulse-button {
-      background-color: #b30000;
+      background-color: #d32f2f;
       color: white;
-      padding: 10px 22px;
-      font-size: 16px;
       font-weight: bold;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
+      padding: 12px 24px;
       cursor: pointer;
-      margin-top: 10px;
-    }
-    .pulse-button:hover {
-      background-color: #d10000;
-    }
-    .info-button {
-      display: block;
-      margin: 10px auto;
-      padding: 10px 16px;
-      font-size: 14px;
-      background-color: #008080;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-      width: 180px;
+      font-size: 16px;
     }
     footer {
       text-align: center;
@@ -162,7 +157,7 @@
   </section>
   <div style="text-align: center; margin-top: 20px;">
     <a href="https://pancakeswap.finance/swap?outputCurrency=0xf3ADad7694AA1d8B5285AC6AAb7E7505b66Ba6EC" target="_blank">
-      <button class="pulse-button">BUY BNRY</button>
+      <button class="pulse-button" data-i18n="button_buy">BUY BNRY</button>
     </a>
   </div>
   <section>
@@ -172,64 +167,12 @@
       <p data-i18n="about_1"></p>
       <p data-i18n="about_2"></p>
       <p data-i18n="about_3"></p>
+      <div style="margin-top: 15px;">
+        <a href="https://www.pinksale.finance/pinklock/bsc/record/1337567" target="_blank" class="button" data-i18n="button_lp">View Locked LP</a>
+        <a href="https://bscscan.com/token/0xf3ADad7694AA1d8B5285AC6AAb7E7505b66Ba6EC" target="_blank" class="button" data-i18n="button_bscscan">View on BscScan</a>
+        <a href="https://dexscreener.com/bsc/0xf3ADad7694AA1d8B5285AC6AAb7E7505b66Ba6EC" target="_blank" class="button" data-i18n="button_chart">View Live BNRY Chart</a>
+      </div>
     </details>
-    <a href="#" class="info-button" data-i18n="button_locked_lp"></a>
-    <a href="#" class="info-button" data-i18n="button_bscscan"></a>
-    <a href="#" class="info-button" data-i18n="button_chart"></a>
   </section>
-  <section>
-    <h2 data-i18n="tokenomics"></h2>
-    <ul>
-      <li data-i18n="tokenomics_1"></li>
-      <li data-i18n="tokenomics_2"></li>
-      <li data-i18n="tokenomics_3"></li>
-      <li data-i18n="tokenomics_4"></li>
-      <li data-i18n="tokenomics_5"></li>
-      <li data-i18n="tokenomics_6"></li>
-    </ul>
-  </section>
-  <section>
-    <h2 data-i18n="roadmap"></h2>
-    <ul>
-      <li data-i18n="roadmap_1"></li>
-      <li data-i18n="roadmap_2"></li>
-      <li data-i18n="roadmap_3"></li>
-      <li data-i18n="roadmap_4"></li>
-      <li data-i18n="roadmap_5"></li>
-      <li data-i18n="roadmap_6"></li>
-      <li data-i18n="roadmap_7"></li>
-    </ul>
-  </section>
-  <section>
-    <h2 data-i18n="who_is_darwin"></h2>
-    <p data-i18n="darwin_desc"></p>
-  </section>
-  <footer>
-    <p data-i18n="footer_reminder"></p>
-    <p data-i18n="footer_disclaimer"></p>
-    <p><a href="mailto:info@onlybinary.com">info@onlybinary.com</a></p>
-    <p><a href="https://github.com/onlybnry/bnry-site/blob/main/LICENSE" target="_blank">MIT License</a></p>
-    <p>&copy; 2025</p>
-  </footer>
-  <script>
-    document.querySelector('#language-selector button').addEventListener('click', function() {
-      const menu = document.getElementById('language-menu');
-      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-    });
-    document.querySelectorAll('.lang-option').forEach(option => {
-      option.addEventListener('click', function() {
-        const lang = this.getAttribute('data-lang');
-        localStorage.setItem('lang', lang);
-        location.reload();
-      });
-    });
-    document.addEventListener('click', function(e) {
-      if (!e.target.closest('#language-selector')) {
-        document.getElementById('language-menu').style.display = 'none';
-      }
-    });
-  </script>
 </body>
 </html>
-
-
