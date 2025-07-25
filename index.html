@@ -66,17 +66,21 @@
             list-style-position: inside;
             padding: 0;
         }
-        .button {
+     .button {
             display: block;
             width: fit-content;
-            margin: 20px auto;
-            padding: 12px 24px;
-            background-color: #00bcd4;
-            color: #000;
+            margin: 14px auto;
+            padding: 8px 18px;
+            font-size: 15px;
+            background-color: #008080;
+            color: #fff;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            border: none;
         }
+
+
         footer {
             text-align: center;
             padding: 20px;
@@ -89,8 +93,28 @@
         details {
             margin-bottom: 10px;
         }
+        @keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(139, 0, 0, 0.6);
+      }
+      70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px 10px rgba(139, 0, 0, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(139, 0, 0, 0);
+      }
+    }
+
+.pulse-button {
+  animation: pulse 2s infinite;
+}
+
     </style>
     <script defer data-domain="onlybinary.com" src="https://plausible.io/js/script.js"></script>
+    <script src="lang.js" defer></script>
     </head>
 <body>
     <header>
@@ -105,10 +129,11 @@
     </section>
     <div style="text-align: center; margin-top: 20px;">
   <a href="https://pancakeswap.finance/swap?outputCurrency=0xf3ADad7694AA1d8B5285AC6AAb7E7505b66Ba6EC" target="_blank" rel="noopener noreferrer">
-  <button style="padding: 12px 28px; font-size: 18px; font-weight: bold; border-radius: 12px; background-color: #fcd535; color: #000; border: none; cursor: pointer;">
-    BUY BNRY
-  </button>
-</a>
+  <button class="pulse-button" style="padding: 12px 28px; font-size: 18px; font-weight: bold; border-radius: 12px; background-color: #8B0000; color: #fff; border: none; cursor: pointer;">
+  BUY BNRY
+</button>
+
+  </a>
 </div>
   <section>
     <h2>What is BNRY?</h2>
@@ -128,8 +153,10 @@
             No presale. No promises. Just a locked chain reaction.
         </p>
     </details>
-
+    <a class="button" style="margin-top: 10px;" href="https://www.pinksale.finance/pinklock/bsc/record/1337567" target="_blank"> View Locked LP</a>
     <a class="button" style="margin-top: 20px; margin-bottom: 30px;" href="https://bscscan.com/token/0xf3adad7694aa1d8b5285ac6aab7e7505b66ba6ec" target="_blank">View on BscScan</a>
+    <a class="button" style="margin-top: 10px;" href="https://dexscreener.com/bsc/0x2921c7a8e7cbdaad8d0b9e881a2cc6ae557eb226" target="_blank"> View Live BNRY Chart</a>
+
 </section>
 
 
@@ -162,7 +189,8 @@
         <ul>
             <li><a href="https://x.com/DarwinTheCoin" target="_blank">Darwin’s Twitter</a></li>
             <li><a href="https://x.com/BNRYcoin" target="_blank">Official Twitter</a></li>
-            <li><a href="https://t.me/BNRYtoken" target="_blank">Telegram</a></li>
+            <li><a href="https://t.me/BNRYtoken" target="_blank">Telegram Channel</a></li>
+            <li><a href="https://t.me/BNRYchat" target="_blank">Telegram Chat</a></li>
         </ul>
     </section>
     <section style="background-color:#111; padding:20px; border-radius:10px; max-width:600px; margin: 40px auto;">
@@ -189,3 +217,4 @@
     </footer>
 </body>
 </html>
+
