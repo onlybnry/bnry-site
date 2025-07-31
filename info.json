@@ -1,7 +1,7 @@
 {
   "name": "OnlyBinary",
   "symbol": "BNRY",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "description": "BNRY is a meme-token promoting the idea of biological duality – male and female – as a foundation of life.",
   "website": "https://onlybinary.com",
